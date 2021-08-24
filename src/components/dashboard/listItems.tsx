@@ -12,7 +12,7 @@ import AssignmentIcon from '@material-ui/icons/Assignment';
 import { Web3ReactProvider } from '@web3-react/core'
 import { BrowserRouter as Router, NavLink, Switch, Route } from 'react-router-dom';
 import { MainNav, Navigation } from "../../App";
-import {NavPages} from "./Router";
+import WebPages from "./Pages";
 
 
 

@@ -9,7 +9,7 @@ import { formatEther, formatUnits } from '@ethersproject/units';
 import ConnectButton from "./components/ConnectButton";
 import { Web3ReactProvider } from '@web3-react/core'
 import { BrowserRouter as Router, NavLink, Switch, Route } from 'react-router-dom';
-import WebPages from "./components/dashboard/Router";
+import WebPages from "./components/dashboard/Pages";
 
 /*
 import { GlobalStyle } from './global/GlobalStyle'
