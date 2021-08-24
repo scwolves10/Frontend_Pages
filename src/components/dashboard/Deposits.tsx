@@ -28,22 +28,21 @@ export const cryptoNames = (
     </ListItem>
 
     <ListItem button>
-      
-      
-      
+    <ListItemText primary="Bitcoin" />
     </ListItem>
+
     <ListItem button>
-      
       <ListItemText primary="Cardano" />
     </ListItem>
+
     <ListItem button>
-      
       <ListItemText primary="Algorand" />
     </ListItem>
+
     <ListItem button>
-      
       <ListItemText primary="Dogecoin" />
     </ListItem>
+    
   </div>
 );
 export default cryptoNames;
