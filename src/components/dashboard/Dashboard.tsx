@@ -31,7 +31,6 @@ import { formatEther, formatUnits } from '@ethersproject/units';
 import { useWeb3React } from "@web3-react/core"
 import {Home, active, account, library, connector, activate, deactivate, connect, disconnect } from "../../index";
 import { injected } from "./connector";
-//import MyApp from "./_app";
 
 function Copyright() {
   return (
