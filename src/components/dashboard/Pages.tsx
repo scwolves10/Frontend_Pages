@@ -8,6 +8,12 @@ import ReactDOM from "react-dom";
 import { formatEther, formatUnits } from '@ethersproject/units';
 import { Web3ReactProvider } from '@web3-react/core'
 import { BrowserRouter as Router, NavLink, Switch, Route } from 'react-router-dom';
+import Swap from "./Swap";
+import Loan from "./Loan";
+import Borrow from "./Borrow";
+import Stake from "./Stake";
+import Pools from "./Pools";
+import Farm from "./Farm";
 
 
 
@@ -27,7 +33,7 @@ const Navigation = () => (
   </nav>
 );
 
-export const NavPages = () => {
+
 
 
 const Home = () => (
@@ -80,7 +86,7 @@ const Farm = () => (
   </div>
 );
 
-const MainNav = () => (
+const WebPages = () => (
   <Router>
 
   <Switch>
@@ -95,4 +101,4 @@ const MainNav = () => (
 
   </Router>
 );
-}
+export default WebPages;
