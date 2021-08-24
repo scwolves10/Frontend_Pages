@@ -7,7 +7,7 @@ import Dashboard from "./Dashboard";
 
 const queryClient = new QueryClient();
 
-const Pools = () => {
+const PoolPage = () => {
   return (
     <div>
       <Dashboard />
@@ -16,4 +16,4 @@ const Pools = () => {
     </div>
   );
 }
-export default Pools;
+export default PoolPage;

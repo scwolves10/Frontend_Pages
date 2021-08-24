@@ -7,7 +7,7 @@ import Dashboard from "./Dashboard";
 
 const queryClient = new QueryClient();
 
-const Swap = () => {
+const SwapPage = () => {
   return (
     <div>
       <Dashboard />
@@ -16,4 +16,4 @@ const Swap = () => {
     </div>
   );
 }
-export default Swap;
+export default SwapPage;

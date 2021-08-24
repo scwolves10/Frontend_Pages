@@ -2,14 +2,18 @@ import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 import "./style.css";
-import { Dashboard } from "./components/dashboard/Dashboard";
+import  Dashboard  from "./components/dashboard/Dashboard";
 import { ChainId, DAppProvider, useEthers, useEtherBalance } from '@usedapp/core'
 import ReactDOM from "react-dom";
 import { formatEther, formatUnits } from '@ethersproject/units';
-import ConnectButton from "./components/ConnectButton";
 import { Web3ReactProvider } from '@web3-react/core'
 import { BrowserRouter as Router, NavLink, Switch, Route } from 'react-router-dom';
-import WebPages from "./components/dashboard/Pages";
+import BorrowPage from "./components/dashboard/Borrow";
+import LoanPage from "./components/dashboard/Loan";
+import PoolPage from "./components/dashboard/Pools";
+import FarmPage from "./components/dashboard/Farm";
+import StakePage from "./components/dashboard/Stake";
+import SwapPage from "./components/dashboard/Swap";
 
 /*
 import { GlobalStyle } from './global/GlobalStyle'
@@ -82,15 +86,13 @@ const Pool = () => (
 
 const Loan = () => (
   <div className='Loan'>
-    <h1>Loan Me</h1>
-    <p>You can reach me via email: <strong>hello@example.com</strong></p>
+    <LoanPage />
   </div>
 );
 
 const Borrow = () => (
   <div className='Borrow'>
-    <h1>Loan Me</h1>
-    <p>You can reach me via email: <strong>hello@example.com</strong></p>
+    <BorrowPage />
   </div>
 );
 

@@ -12,7 +12,6 @@ import AssignmentIcon from '@material-ui/icons/Assignment';
 import { Web3ReactProvider } from '@web3-react/core'
 import { BrowserRouter as Router, NavLink, Switch, Route } from 'react-router-dom';
 import { MainNav, Navigation } from "../../App";
-import WebPages from "./Pages";
 
 
 
@@ -65,8 +64,8 @@ export const mainListItems = (
         <BarChartIcon />
       </ListItemIcon>
 
-
-      <ListItemText primary="Loan" /><NavLink exact activeClassName="current" to='/Loan'>
+<NavLink exact activeClassName="current" to='/Loan'>
+      <ListItemText primary="Loan" />
       </NavLink>
 
     </ListItem>
@@ -74,8 +73,8 @@ export const mainListItems = (
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      
-      <ListItemText primary="Borrow" /><NavLink exact activeClassName="current" to='/Borrow'>
+      <NavLink exact activeClassName="current" to='/Borrow'>
+      <ListItemText primary="Borrow" />
       </NavLink>
 
     </ListItem>
@@ -83,8 +82,8 @@ export const mainListItems = (
       <ListItemIcon>
         <BarChartIcon />
       </ListItemIcon>
-
-      <ListItemText primary="Stake" /><NavLink exact activeClassName="current" to='/Stake'>
+<NavLink exact activeClassName="current" to='/Stake'>
+      <ListItemText primary="Stake" />
       </NavLink>
 
     </ListItem>
@@ -92,8 +91,8 @@ export const mainListItems = (
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-
-      <ListItemText primary="Farm" /><NavLink exact activeClassName="current" to='/Farm'>
+<NavLink exact activeClassName="current" to='/Farm'>
+      <ListItemText primary="Farm" />
       </NavLink>
 
     </ListItem>

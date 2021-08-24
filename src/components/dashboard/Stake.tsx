@@ -7,7 +7,7 @@ import Dashboard from "./Dashboard";
 
 const queryClient = new QueryClient();
 
-const Stake = () => {
+const StakePage = () => {
   return (
     <div>
       <Dashboard />
@@ -16,4 +16,4 @@ const Stake = () => {
     </div>
   );
 }
-export default Stake;
+export default StakePage;

@@ -7,7 +7,7 @@ import Dashboard from "./Dashboard";
 
 const queryClient = new QueryClient();
 
-const Farm = () => {
+const FarmPage = () => {
   return (
     <div>
       <Dashboard />
@@ -16,4 +16,4 @@ const Farm = () => {
     </div>
   );
 }
-export default Farm;
+export default FarmPage;
