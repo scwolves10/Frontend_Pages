@@ -2,7 +2,7 @@ import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 import "./style.css";
-import Dashboard from "./components/dashboard/Dashboard";
+import { Dashboard } from "./components/dashboard/Dashboard";
 import { ChainId, DAppProvider, useEthers, useEtherBalance } from '@usedapp/core'
 import ReactDOM from "react-dom";
 import { formatEther, formatUnits } from '@ethersproject/units';
@@ -32,9 +32,8 @@ const App = () => {
       <Dashboard />
       <Navigation />
 
-       {/**<MainNav /> */} 
+       <MainNav /> 
        
-        <WebPages />
 
     </div>
   );
