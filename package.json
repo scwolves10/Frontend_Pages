@@ -82,8 +82,6 @@
     "gulp-rtlcss": "1.4.2",
     "gulp-uglify": "3.0.2",
     "gulp-watch": "5.0.1",
-    "http": "^0.0.0",
-    "https": "^1.0.0",
     "jquery": "3.6.0",
     "lodash": "4.17.21",
     "map-stream": "0.1.0",
