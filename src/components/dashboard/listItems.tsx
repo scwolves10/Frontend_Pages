@@ -11,8 +11,8 @@ import LayersIcon from '@material-ui/icons/Layers';
 import AssignmentIcon from '@material-ui/icons/Assignment';
 import { Web3ReactProvider } from '@web3-react/core'
 import { BrowserRouter as Router, NavLink, Switch, Route } from 'react-router-dom';
-import MainNav from "../../App";
-import NavPages from "../Router";
+import { MainNav, Navigation } from "../../App";
+import {NavPages} from "./Router";
 
 
 
@@ -126,19 +126,3 @@ export const secondaryListItems = (
   </div>
 );
 
-
-const Nav = () =>(
-  <Router>
-
-  <Switch>
-    <Route exact path='/Dashboard' component={Home}></Route>
-    <Route exact path='/Swap' component={Swap}><Swap /></Route>
-    <Route exact path='/Pool' component={Pool}><Pool /></Route>
-    <Route exact path='/Loan' component={Loan}></Route>
-    <Route exact path='/Borrow' component={Borrow}><Borrow /></Route>
-    <Route exact path='/Stake' component={Stake}><Stake /></Route>
-    <Route exact path='/Farm' component={Farm}><Farm /></Route>
-  </Switch>
-
-  </Router>
-)

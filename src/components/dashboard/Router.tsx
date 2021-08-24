@@ -27,6 +27,7 @@ const Navigation = () => (
   </nav>
 );
 
+export const NavPages = () => {
 
 
 const Home = () => (
@@ -94,5 +95,4 @@ const MainNav = () => (
 
   </Router>
 );
-
-export default NavPages;
+}
